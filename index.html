@@ -1,0 +1,591 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Training Center Philippines</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+
+<!-- for contact icons -->
+
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+
+
+<!-- Bootstrap Icons -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+
+
+<!-- Bootstrap Icons v1.11  for x icon-->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css" rel="stylesheet">
+
+
+
+
+
+  <style>
+    body {
+      font-family: 'Montserrat', sans-serif;
+      background-color: #F9F9F9;
+      color: #333333;
+    }
+    h1, h2, h3, h4, h5 {
+      font-weight: 700;
+    }
+    .navbar {
+      background-color: white;
+      box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    }
+    .hero {
+      background: url('./hero-bg.jpg') center center/cover no-repeat;
+      min-height: 100vh;
+      color: white;
+      text-align: center;
+      padding: 100px 20px;
+    }
+    .btn-primary {
+      background-color: #0066CC;
+      border: none;
+    }
+    .btn-accent {
+      background-color: #FFB400;
+      color: #fff;
+      border: none;
+    }
+    .btn-accent:hover {
+      background-color: #e6a700;
+    }
+    .section-title {
+      text-align: center;
+      margin-bottom: 40px;
+    }
+    .course-card {
+      transition: transform 0.3s ease;
+    }
+    .course-card:hover {
+      transform: scale(1.03);
+    }
+    .pricing-card {
+      border: 2px solid #00B894;
+    }
+    footer {
+      background-color: #0066CC;
+      color: white;
+    }
+
+    /* scroll top */
+    section {
+  scroll-margin-top: 300px; /* or your navbar height */
+}
+
+/*  Tablet & Desktop (medium and large screens) */
+@media (min-width: 768px) {
+  section {
+    scroll-margin-top: 80px; /* larger margin for sticky desktop navbar */
+  }
+}
+
+  </style>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg sticky-top">
+    <div class="container">
+      <a class="navbar-brand fw-bold text-primary" href="#">Creative Training Center</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav ms-auto">
+          <li class="nav-item"><a class="nav-link" href="#hero">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+          <li class="nav-item"><a class="nav-link" href="#courses">Courses</a></li>
+          <li class="nav-item"><a class="nav-link" href="#pricing">Pricing</a></li>
+          <li class="nav-item"><a class="nav-link" href="#testimonials">Testimonials</a></li>
+          <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+
+  <!-- Hero Section -->
+  <section class="hero position-relative text-white d-flex align-items-center" id="hero">
+  <div class="overlay position-absolute top-0 start-0 w-100 h-100" style="background-color: rgba(0, 0, 0, 0.5); z-index: 1;"></div>
+  <div class="container position-relative z-2 text-center">
+    <h1 class="display-4 fw-bold">Empowering Skills, Building Careers</h1>
+    <p class="lead">Join top-notch training programs in the Philippines.</p>
+    <a href="#courses" class="btn btn-warning btn-lg m-2">View Courses</a>
+    <a href="#contact" class="btn btn-outline-light btn-lg m-2">Contact Us</a>
+  </div>
+</section>
+
+
+  <!-- About Section -->
+  <section id="about" class="py-5 bg-light text-dark">
+  <div class="container">
+    <div class="row align-items-center">
+      
+      <!-- Left Column: Text -->
+      <div class="col-md-6">
+        <h2 class="mb-4">About Us</h2>
+        <p class="mb-4">
+          At <strong>Creative Training Center</strong>, we are dedicated to developing job-ready skills for Filipinos across various industries. Whether you're just starting out or upgrading your career, our courses are designed to deliver practical, hands-on learning with immediate value in the workforce.
+        </p>
+
+        <h5 class="text-primary fw-bold">🎯 Mission</h5>
+        <p class="mb-3">
+          To empower individuals through industry-aligned training that equips them with real-world skills, enhancing their employability and confidence.
+        </p>
+
+        <h5 class="text-primary fw-bold">🌟 Vision</h5>
+        <p class="mb-3">
+          To be a leading training provider in the Philippines, recognized for quality education, innovative teaching, and student success.
+        </p>
+
+        <h5 class="text-primary fw-bold">✅ Why Choose Us?</h5>
+        <ul class="list-unstyled">
+          <li>✔ TESDA-accredited and industry-aligned curriculum</li>
+          <li>✔ Experienced and certified instructors</li>
+          <li>✔ Flexible scheduling (weekend and online options)</li>
+          <li>✔ Real-world practice with hands-on tools</li>
+          <li>✔ Job placement assistance after training</li>
+        </ul>
+      </div>
+
+      <!-- Right Column: Image -->
+      <div class="col-md-6 text-center">
+        <img src="./about 600x400-bg.jpg" class="img-fluid rounded shadow" alt="Training Center 600x400" loading="lazy">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Courses Section -->
+  <section id="courses" class="py-5 bg-white text-dark">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Our Courses</h2>
+      <p class="text-muted">Upgrade your skills with our hands-on Adobe software training programs.</p>
+    </div>
+    <div class="row g-4">
+      
+      <!-- Course 1 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-primary">Adobe Photoshop</h5>
+            <p class="card-text">Learn photo editing, retouching, and creative design with Photoshop.</p>
+            <p class="text-muted mb-3"><strong>Duration:</strong> 7 Days</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Course 2 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-primary">Adobe Illustrator</h5>
+            <p class="card-text">Master vector graphics for logos, icons, and illustrations.</p>
+            <p class="text-muted mb-3"><strong>Duration:</strong> 8 Days</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Course 3 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-primary">Adobe InDesign</h5>
+            <p class="card-text">Create print-ready layouts for magazines, brochures, and books.</p>
+            <p class="text-muted mb-3"><strong>Duration:</strong> 9 Days</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Course 4 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-primary">Adobe Premiere Pro</h5>
+            <p class="card-text">Edit videos professionally for YouTube, social media, and film.</p>
+            <p class="text-muted mb-3"><strong>Duration:</strong> 10 Days</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Course 5 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-primary">Adobe After Effects</h5>
+            <p class="card-text">Animate titles, effects, and motion graphics for video content.</p>
+            <p class="text-muted mb-3"><strong>Duration:</strong> 10 Days</p>
+           
+          </div>
+        </div>
+      </div>
+
+      <!-- Course 6 -->
+      <div class="col-md-4">
+        <div class="card h-100 shadow-sm">
+          <div class="card-body d-flex flex-column">
+            <h5 class="card-title text-primary">Adobe Animate</h5>
+            <p class="card-text">Create engaging 2D animations and interactive web content.</p>
+            <p class="text-muted mb-3"><strong>Duration:</strong> 14 Days</p>
+            
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Pricing Section -->
+ <section id="pricing" class="py-5 bg-light text-dark">
+  <div class="container">
+    <div class="text-center mb-5">
+      <h2 class="fw-bold">Choose Your Plan</h2>
+      <p class="text-muted">Flexible pricing designed to match your learning goals.</p>
+    </div>
+
+    <div class="row g-4 justify-content-center">
+      
+      <!-- Single Course -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm border-0">
+          <div class="card-body py-4">
+            <h5 class="fw-bold text-primary">1 Course</h5>
+            <h3 class="fw-bold">₱1,500</h3>
+            <p class="text-muted">Choose any 1 course</p>
+            <ul class="list-unstyled mb-4">
+              <li>✔ Hands-on Training</li>
+              <li>✔ Certificate Included</li>
+            </ul>
+            <button class="btn text-white" style="background-color: #FFB400;" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- 3 Courses -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow-sm border-0">
+          <div class="card-body py-4">
+            <h5 class="fw-bold text-primary">3 Courses</h5>
+            <h3 class="fw-bold">₱3,000</h3>
+            <p class="text-muted">Save ₱1,500</p>
+            <ul class="list-unstyled mb-4">
+              <li>✔ Choose Any 3 Courses</li>
+              <li>✔ Lifetime Access</li>
+              <li>✔ Certificate for Each Course</li>
+            </ul>
+            <button class="btn text-white" style="background-color: #FFB400;" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+
+          </div>
+        </div>
+      </div>
+
+      <!-- All Courses (Featured) -->
+      <div class="col-md-4">
+        <div class="card h-100 text-center shadow border-2 border-primary">
+          <div class="card-body py-4">
+            <div class="badge bg-primary text-white mb-2">Best Value</div>
+            <h5 class="fw-bold text-primary">All 6 Courses</h5>
+            <h3 class="fw-bold">₱6,500</h3>
+            <p class="text-muted">Save ₱2,500</p>
+            <ul class="list-unstyled mb-4">
+              <li>✔ Access to All Courses</li>
+              <li>✔ Lifetime Access</li>
+              <li>✔ Certificates Included</li>
+              <li>✔ Priority Support</li>
+            </ul>
+            <button class="btn text-white" style="background-color: #FFB400;" data-bs-toggle="modal" data-bs-target="#enrollModal">Enroll Now</button>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+  <!-- Testimonials Section -->
+  <section id="testimonials" class="py-5" style="background-color: #f9f9f9;">
+  <div class="container">
+    <h2 class="text-center mb-4 fw-bold" style="color: #0066CC;">What Our Students Say</h2>
+    <div class="row g-4">
+      <div class="col-md-4">
+        <div class="p-4 bg-white shadow-sm rounded-3 h-100">
+          <p class="text-secondary">"The Adobe Photoshop course was exactly what I needed. The instructor was patient and the lessons were easy to follow."</p>
+          <p class="fw-semibold text-end text-dark mb-0">– Janine D.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white shadow-sm rounded-3 h-100">
+          <p class="text-secondary">"I learned so much from the After Effects class. Now I can confidently create motion graphics for my projects."</p>
+          <p class="fw-semibold text-end text-dark mb-0">– Marco R.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white shadow-sm rounded-3 h-100">
+          <p class="text-secondary">"Highly recommend this training center! Affordable pricing and high-quality instruction."</p>
+          <p class="fw-semibold text-end text-dark mb-0">– Camille T.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white shadow-sm rounded-3 h-100">
+          <p class="text-secondary">"I was able to land a freelance gig after finishing the Adobe Illustrator course. Thank you for the hands-on training!"</p>
+          <p class="fw-semibold text-end text-dark mb-0">– Rico A.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white shadow-sm rounded-3 h-100">
+          <p class="text-secondary">"The pace was just right, and the trainer made sure we understood every step. Very friendly atmosphere."</p>
+          <p class="fw-semibold text-end text-dark mb-0">– Liza M.</p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="p-4 bg-white shadow-sm rounded-3 h-100">
+          <p class="text-secondary">"All six courses were worth it. The discounted price for full enrollment made it an easy decision."</p>
+          <p class="fw-semibold text-end text-dark mb-0">– Joseph P.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Contact Section -->
+  <section id="contact" class="py-5 bg-light">
+  <div class="container">
+    <h2 class="text-center mb-5 fw-bold" style="color: #0066CC;">Get in Touch</h2>
+    <div class="row g-4">
+      <!-- Left Column -->
+      <div class="col-md-6">
+        <div class="border rounded-3 p-4 h-100 bg-white shadow-sm">
+          <h5 class="fw-semibold mb-3">Contact Details</h5>
+          <p><i class="bi bi-geo-alt-fill text-primary me-2"></i> 123 Main Street, Quezon City, Philippines</p>
+          <p><i class="bi bi-telephone-fill text-primary me-2"></i> (02) 1234 5678</p>
+          <p><i class="bi bi-envelope-fill text-primary me-2"></i> info@trainingcenter.ph</p>
+
+          <div class="mt-4">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d1930.7584118124092!2d121.04355616810786!3d14.676041113181071!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3397b7b4e497f177%3A0x1ab1c4ea839af1c3!2sQuezon%20City%20Hall!5e0!3m2!1sen!2sph!4v1717470000000"
+              width="100%" height="200" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+          </div>
+        </div>
+      </div>
+
+      <!-- Right Column -->
+      <div class="col-md-6">
+        <div class="border rounded-3 p-4 h-100 bg-white shadow-sm">
+          <h5 class="fw-semibold mb-3">Send Us a Message</h5>
+          <form>
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input type="text" class="form-control" id="name" placeholder="Your Name">
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">Email</label>
+              <input type="email" class="form-control" id="email" placeholder="you@example.com">
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Message</label>
+              <textarea class="form-control" id="message" rows="5" placeholder="Your Message"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Send Message</button>
+          </form>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <!-- Footer Section -->
+<footer class="bg-dark text-white pt-5 pb-4 mt-5">
+  <div class="container text-md-start">
+    <div class="row">
+
+      <!-- Brand Info -->
+      <div class="col-md-4 mb-4">
+        <h5 class="fw-bold" style="color: #FFB400;">Creative Training Center</h5>
+        <p class="small">Empowering creatives with hands-on Adobe training. Learn. Design. Grow.</p>
+      </div>
+
+      <!-- Navigation Links -->
+      <div class="col-md-4 mb-4">
+        <h6 class="fw-semibold text-uppercase mb-3">Quick Links</h6>
+        <ul class="list-unstyled">
+          <li><a href="#hero" class="text-white text-decoration-none">Home</a></li>
+          <li><a href="#about" class="text-white text-decoration-none">About</a></li>
+          <li><a href="#courses" class="text-white text-decoration-none">Courses</a></li>
+          <li><a href="#contact" class="text-white text-decoration-none">Contact</a></li>
+        </ul>
+      </div>
+
+      <!-- Social Media -->
+      <div class="col-md-4 mb-4">
+        <h6 class="fw-semibold text-uppercase mb-3">Connect with Us</h6>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-facebook"></i></a>
+        <a href="#" class="text-white me-3 fs-5"><i class="bi bi-instagram"></i></a>
+        <a href="#" class="text-white fs-5"><i class="bi bi-twitter-x"></i></a>
+      </div>
+
+    </div>
+
+    <!-- Bottom Bar -->
+    <div class="text-center pt-3 border-top border-light mt-4">
+      <p class="mb-0 small">&copy; 2025 Creative Training Center. All rights reserved.</p>
+    </div>
+  </div>
+</footer>
+
+
+  <!-- Modal for Enroll Now -->
+
+  <!-- Enroll Now Modal -->
+<div class="modal fade" id="enrollModal" tabindex="-1" aria-labelledby="enrollModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-lg">
+    <div class="modal-content">
+      <form id="enrollForm">
+        <div class="modal-header">
+          <h5 class="modal-title fw-bold" id="enrollModalLabel">Enroll in Adobe Courses</h5>
+          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+
+        <div class="modal-body">
+          <div class="mb-3">
+            <label for="name" class="form-label">Your Name</label>
+            <input type="text" class="form-control" id="name" required>
+          </div>
+
+          <div class="mb-3">
+            <label for="email" class="form-label">Your Email</label>
+            <input type="email" class="form-control" id="email" required>
+          </div>
+
+          <div class="mb-3">
+            <label class="form-label">Select Courses</label>
+            <div class="row">
+              <div class="col-md-6">
+                <div><input type="checkbox" class="form-check-input course-check" value="Adobe Photoshop"> Adobe Photoshop (7 days)</div>
+                <div><input type="checkbox" class="form-check-input course-check" value="Adobe Illustrator"> Adobe Illustrator (8 days)</div>
+                <div><input type="checkbox" class="form-check-input course-check" value="Adobe InDesign"> Adobe InDesign (9 days)</div>
+              </div>
+              <div class="col-md-6">
+                <div><input type="checkbox" class="form-check-input course-check" value="Adobe Premiere Pro"> Adobe Premiere Pro (10 days)</div>
+                <div><input type="checkbox" class="form-check-input course-check" value="Adobe After Effects"> Adobe After Effects (10 days)</div>
+                <div><input type="checkbox" class="form-check-input course-check" value="Adobe Animate"> Adobe Animate (14 days)</div>
+              </div>
+            </div>
+          </div>
+
+          <div class="alert alert-info">
+            <strong>Total Price:</strong> ₱<span id="totalPrice">0</span>
+          </div>
+        </div>
+
+        <div class="modal-footer">
+          <button type="submit" class="btn btn-warning text-white">Proceed to Payment</button>
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cancel</button>
+        </div>
+      </form>
+    </div>
+  </div>
+</div>
+
+
+  <!-- Bootstrap JS Bundle -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Modal script -->
+ <script>
+  const courseCheckboxes = document.querySelectorAll('.course-check');
+  const totalPriceEl = document.getElementById('totalPrice');
+  const form = document.getElementById('enrollForm');
+
+  courseCheckboxes.forEach(cb => {
+    cb.addEventListener('change', updatePrice);
+  });
+
+  function updatePrice() {
+    const selected = Array.from(courseCheckboxes).filter(cb => cb.checked);
+    const count = selected.length;
+
+    let price = 0;
+    if (count === 1) price = 1500;
+    else if (count === 3) price = 3000;
+    else if (count === 6) price = 6500;
+    else price = 1500 * count;
+
+    totalPriceEl.textContent = price;
+  }
+
+  form.addEventListener('submit', function(e) {
+    e.preventDefault();
+
+    const name = document.getElementById('name').value.trim();
+    const email = document.getElementById('email').value.trim();
+    const selectedCourses = Array.from(courseCheckboxes)
+                                .filter(cb => cb.checked)
+                                .map(cb => cb.value);
+    const price = totalPriceEl.textContent;
+
+    if (selectedCourses.length === 0) {
+      alert("Please select at least one course.");
+      return;
+    }
+
+    // Redirect with data in URL (or send via POST to real payment API)
+    const query = new URLSearchParams({
+      name,
+      email,
+      courses: selectedCourses.join(', '),
+      price
+    });
+
+    window.location.href = 'payment.html?' + query.toString();
+  });
+</script>
+
+<!-- Script for Navbar collapse -->
+
+  <!-- Bootstrap 5 JS bundle for nav bar collapse -->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+  <script>
+    document.querySelectorAll('.navbar-nav .nav-link').forEach((link) => {
+      link.addEventListener('click', () => {
+        const navbarCollapse = document.querySelector('.navbar-collapse');
+        if (navbarCollapse.classList.contains('show')) {
+          const bsCollapse = new bootstrap.Collapse(navbarCollapse, {
+            toggle: true
+          });
+        }
+      });
+    });
+  </script>
+
+ 
+
+
+
+</body>
+
+</html>
